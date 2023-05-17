@@ -4,13 +4,11 @@ import '../App';
 const NavBar = () => {
   return (
     <div className="navbar"> 
-    
     <div>
-      <h1>Readers' Room</h1>
+      <h1 >Readers' Room</h1>
     </div>
-    <div>Your Favorites</div>
-    <div>Book CLub</div>
-
+    <div> <i >Your Favourites </i> </div>
+    <div> <i>Book Club </i> </div>
     </div>
   );
 };
