@@ -2,6 +2,7 @@
  box-sizing: border-box;
  padding: 0;
  margin: 0;
+ background: e1f4f3;
 }
 
 
@@ -35,6 +36,15 @@
   justify-items: center;
   text-align: center;
 }
+.favorites {
+  min-height: 80vh; 
+  width: 100%;
+  display: grid;
+  grid-template-columns:repeat(3,1fr) ;
+  justify-items: center;
+  text-align: center;
+}
+
 
 img {
   width: 250px;
@@ -62,16 +72,22 @@ img:hover {
 }
 
 button {
-  padding: 12px;
+  padding: 6px;
   background: black;
   color: white;
-  width: 100%; 
+  width: 250px; 
+  font-size: 16px;
   border-radius: 50px;
-  
+
 }
 
 button:hover {
   background-color:#3e333f;
   transition: 0.7s;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
